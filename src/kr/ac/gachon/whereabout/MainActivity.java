@@ -71,11 +71,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	private Button signIn;
 	// For sign in.
 
-	private String Id;
-	private String pw;;
-	// For sign up.
-	// Bottom variables are take user information inserted by user.
-
 	private String UId;
 	private String UPw;
 	private String USnum;
