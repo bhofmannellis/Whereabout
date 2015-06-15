@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@android:color/white"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/suserIdField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="userID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/suserPwField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:fontFamily="sans-serif"
+        android:hint="userPW"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/userNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:fontFamily="sans-serif"
+        android:hint="userName"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/userSnumField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:fontFamily="sans-serif"
+        android:hint="userSnum"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/userPhoneNumField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:fontFamily="sans-serif"
+        android:hint="userPhoneNum"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/userEmailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:fontFamily="sans-serif"
+        android:hint="userEmail"
+        android:inputType="textEmailAddress" />
+
+</LinearLayout>

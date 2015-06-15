@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whereabout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">979924518714370</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="title_activity_friend_list_fragment">FriendListFragment</string>
+    <string name="title_activity_nearest_friend_fragment">NearestFriendFragment</string>
+    <string name="title_activity_setting_fragment">SettingFragment</string>
+
+    <string name="title_activity_chat_map">ChatMapActivity</string>
+   <string name="title_activity_map">Group Map</string>
+    
+
+
+    <string name="main_map_activity">Whereabout</string>
+    <string name="title_swipe_activity">Whereabout</string>
+    <string name="first">FIRST</string>
+    <string name="last">LAST</string>
+    <string name="str_done">Done</string>
+    <string name="title_activity_clause">Clause</string>
+    <string name="title_activity_chat_group_list_fragment">ChatGroupListFragment</string>
+    <string name="connectionButton">CONNECTION</string>
+
+
+    <string-array name="color_choices">
+        <item>Azure</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Green</item>
+        <item>Magenta</item>
+        <item>Orange</item>
+        <item>Red</item>
+        <item>Rose</item>
+        <item>Violet</item>
+        <item>Yellow</item>
+    </string-array> 
+    
+</resources>
+   
+

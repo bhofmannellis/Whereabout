@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="kr.ac.gachon.whereabout.FriendListFragment" >
+
+    
+    <EditText
+        android:id="@+id/search"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:textSize="20dp"
+        android:hint="Search Id Here!"
+    />
+   
+    <ListView
+        android:layout_toRightOf="@+id/img"
+        android:id="@+id/myList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ 
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONNECTION"
+        android:textColor="@android:color/black"
+        android:drawableLeft="@drawable/nophoto"
+        android:background="#00FF0000" />
+
+</LinearLayout>

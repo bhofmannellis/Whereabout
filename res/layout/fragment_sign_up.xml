@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84CD84"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/nameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="NAME :"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nameTitle"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/idTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nameTitle"
+        android:enabled="false"
+        android:text="ID :"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/idTitle"
+        android:textSize="20dp" />
+    
+    <EditText
+        android:id="@+id/passwordTitle"
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTitle"
+        android:enabled="false"
+        android:text="PW :"
+        android:textSize="20dp" />
+    
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_toRightOf="@+id/passwordTitle"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/ssNumberTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordTitle"
+        android:enabled="false"
+        android:text="A Resident Registration Number."
+        android:textSize="19dp" />
+
+    <EditText
+        android:id="@+id/ssNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ssNumberTitle"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/phoneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ssNumber"
+        android:enabled="false"
+        android:text="Phone Num"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phoneTitle"
+        android:layout_toRightOf="@+id/phoneTitle"
+        android:inputType="number"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/emailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/phoneTitle"
+        android:enabled="false"
+        android:text="E-mail"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailTitle"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="20dp"
+        android:onClick="submit"
+        android:text="SUBMIT" />
+
+</RelativeLayout>
